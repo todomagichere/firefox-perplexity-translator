@@ -24,12 +24,8 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "perplexity-selection-translator@example.com",
-      "data_collection_permissions": {
-        "required": [
-          "none"
-        ]
-      }
+      "id": "{fb45bbef-f530-475a-b296-c43657c536e3}"
     }
   }
 }
+
