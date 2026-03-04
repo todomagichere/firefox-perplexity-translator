@@ -1,5 +1,5 @@
 const MENU_ID = "translate-with-perplexity";
-const DEFAULT_LANGUAGE = "inglés";
+const DEFAULT_LANGUAGE = "English";
 
 browser.runtime.onInstalled.addListener(async () => {
   browser.contextMenus.create({

@@ -1,4 +1,4 @@
-const DEFAULT_LANGUAGE = "inglés";
+const DEFAULT_LANGUAGE = "English";
 
 const form = document.getElementById("settings-form");
 const languageSelect = document.getElementById("targetLanguage");
