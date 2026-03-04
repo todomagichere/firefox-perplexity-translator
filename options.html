@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Configuración de traducción</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Perplexity Selection Translator</h1>
+      <p>Elige el idioma al que quieres traducir el texto seleccionado.</p>
+
+      <form id="settings-form">
+        <label for="targetLanguage">Idioma de destino</label>
+        <select id="targetLanguage" name="targetLanguage" required>
+          <option value="inglés">Inglés</option>
+          <option value="español">Español</option>
+          <option value="francés">Francés</option>
+          <option value="alemán">Alemán</option>
+          <option value="italiano">Italiano</option>
+          <option value="portugués">Portugués</option>
+          <option value="neerlandés">Neerlandés</option>
+          <option value="japonés">Japonés</option>
+          <option value="chino">Chino</option>
+        </select>
+
+        <button type="submit">Guardar configuración</button>
+      </form>
+
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+
+    <script src="options.js"></script>
+  </body>
+</html>
