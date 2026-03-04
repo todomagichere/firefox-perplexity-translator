@@ -4,20 +4,26 @@ Firefox extension that translates selected text using Perplexity without API key
 
 ## How it works
 
-1. Select text on any web page.
+1. Select text on any webpage.
 2. Right-click and choose **Translate with Perplexity**.
-3. The extension opens a popup-style window with a Perplexity URL containing the translation prompt.
+3. The extension opens a popup window with a Perplexity URL containing the translation prompt.
 
-## Language Configuration
+## Language configuration
 
-1. Open the extension's options page.
-2. Select the target language from the dropdown list.
-3. Save changes.
+You can configure the target language in two ways:
 
-The language is stored in `browser.storage.sync`.
+1. **Quick settings**: click the extension icon and choose the language in the dropdown.
+2. **Full settings**: open the extension options page and choose the target language.
 
-## Local Development
+The selected language is saved in `browser.storage.sync`.
+
+### UI localization behavior
+
+- Default language is **English**.
+- When the user selects another language, extension texts are shown in that language (context menu title, settings labels/messages, and prompt wording).
+
+## Local development
 
 1. Open `about:debugging#/runtime/this-firefox` in Firefox.
-2. Click **Load Temporary Add-on...** and select `manifest.json`.
-3. Test the contextual menu option by selecting text.
+2. Click **Load Temporary Add-on...** and choose `manifest.json`.
+3. Test language changes from the extension popup and then translate selected text from the context menu.

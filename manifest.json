@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Perplexity Selection Translator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Traduce texto seleccionado usando Perplexity en una ventana emergente.",
   "permissions": [
     "contextMenus",
@@ -10,6 +10,7 @@
   ],
   "background": {
     "scripts": [
+      "i18n.js",
       "background.js"
     ]
   },
