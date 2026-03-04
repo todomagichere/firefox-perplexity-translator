@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Configuración rápida</title>
+    <link rel="stylesheet" href="settings.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Idioma de traducción</h1>
+      <label for="targetLanguage">Selecciona el idioma</label>
+      <select id="targetLanguage" name="targetLanguage">
+        <option value="English">English</option>
+        <option value="Español">Español</option>
+        <option value="Français">Français</option>
+        <option value="Deutsch">Deutsch</option>
+        <option value="Italiano">Italiano</option>
+        <option value="Português">Português</option>
+        <option value="Nederlands">Nederlands</option>
+        <option value="日本語">日本語</option>
+        <option value="中文">中文</option>
+      </select>
+      <button id="saveButton" type="button">Guardar</button>
+      <p id="status" role="status" aria-live="polite"></p>
+      <a id="openOptions" href="#">Abrir configuración completa</a>
+    </main>
+
+    <script src="settings.js"></script>
+  </body>
+</html>
