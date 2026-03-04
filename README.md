@@ -1,23 +1,23 @@
 # Perplexity Selection Translator (Firefox)
 
-Extensión para Firefox que traduce texto seleccionado usando Perplexity sin API keys.
+Firefox extension that translates selected text using Perplexity without API keys.
 
-## Cómo funciona
+## How it works
 
-1. Selecciona texto en cualquier web.
-2. Haz clic derecho y elige **Traducir con Perplexity**.
-3. La extensión abre una ventana tipo popup con una URL de Perplexity que contiene el prompt de traducción.
+1. Select text on any web page.
+2. Right-click and choose **Translate with Perplexity**.
+3. The extension opens a popup-style window with a Perplexity URL containing the translation prompt.
 
-## Configuración del idioma
+## Language Configuration
 
-1. Abre la página de opciones de la extensión.
-2. Selecciona el idioma de destino desde la lista desplegable (por ejemplo: `Español`, `English`, `Français`).
-3. Guarda los cambios.
+1. Open the extension's options page.
+2. Select the target language from the dropdown list.
+3. Save changes.
 
-El idioma se almacena en `browser.storage.sync`.
+The language is stored in `browser.storage.sync`.
 
-## Desarrollo local
+## Local Development
 
-1. Abre `about:debugging#/runtime/this-firefox` en Firefox.
-2. Clic en **Load Temporary Add-on...** y selecciona `manifest.json`.
-3. Prueba la opción de menú contextual al seleccionar texto.
+1. Open `about:debugging#/runtime/this-firefox` in Firefox.
+2. Click **Load Temporary Add-on...** and select `manifest.json`.
+3. Test the contextual menu option by selecting text.
