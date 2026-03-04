@@ -22,6 +22,11 @@ The selected language is saved in `browser.storage.sync`.
 - Default language is **English**.
 - When the user selects another language, extension texts are shown in that language (context menu title, settings labels/messages, and prompt wording).
 
+
+## Documentation by language
+
+Detailed extension description and usage instructions for each available language are in `docs/languages/`.
+
 ## Local development
 
 1. Open `about:debugging#/runtime/this-firefox` in Firefox.
