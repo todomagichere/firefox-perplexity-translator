@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Perplexity Selection Translator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Traduce texto seleccionado usando Perplexity en una ventana emergente.",
   "permissions": [
     "contextMenus",
@@ -24,7 +24,10 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "perplexity-selection-translator@example.com"
+      "id": "perplexity-selection-translator@example.com",
+      "data_collection_permissions": {
+        "required": []
+      }
     }
   }
 }
