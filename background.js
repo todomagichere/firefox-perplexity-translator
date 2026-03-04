@@ -20,7 +20,7 @@ browser.contextMenus.onClicked.addListener(async (info) => {
   }
 
   const { targetLanguage = DEFAULT_LANGUAGE } = await browser.storage.sync.get("targetLanguage");
-  const prompt = `Traduce el siguiente texto al idioma ${targetLanguage} y devuelve solo la traducción: ${info.selectionText}`;
+  const prompt = `Traduce al ${targetLanguage} el siguiente texto y devuelve solo la traducción: ${info.selectionText}`;
   const url = `https://www.perplexity.ai/search?q=${encodeURIComponent(prompt)}`;
 
   await browser.windows.create({
